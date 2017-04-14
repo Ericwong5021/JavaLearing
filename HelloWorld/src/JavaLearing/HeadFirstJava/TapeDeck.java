@@ -1,5 +1,5 @@
 /**
- * Created by Ericwong on 2017/3/6 0006.
+ *Created by Ericwong on 2017/3/6 0006
  */
 public class TapeDeck {
 
@@ -21,7 +21,7 @@ class TapeDeckTestDrive {
         t.canRecord = true;
         t.playTape();
 
-        if (t.canRecord == true) {
+        if (t.canRecord) {
             t.recordTape();
 
         }
