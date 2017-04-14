@@ -1,7 +1,7 @@
-package JavaLearing.HeadFirstJava.GoodDog;
+package GoodDog;
 
 /**
- * Created by Ericwong on 2017/3/9 0009.
+ *Created by Ericwong on 2017/3/9 0009
  */
 class GoodDog {
 

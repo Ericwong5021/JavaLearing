@@ -1,5 +1,5 @@
 /**
- * Created by Ericwong on 2017/3/6 0006.
+ *Created by Ericwong on 2017/3/6 0006
  */
 public class PoolPuzzleOne {
     public static void main(String[] rags) {

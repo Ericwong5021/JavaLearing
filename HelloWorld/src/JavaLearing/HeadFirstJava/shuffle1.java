@@ -1,5 +1,5 @@
 /**
- * Created by Ericwong on 2017/3/5 0005.
+ *Created by Ericwong on 2017/3/5 0005
  */
 public class shuffle1 {
     public static void main(String[] args) {

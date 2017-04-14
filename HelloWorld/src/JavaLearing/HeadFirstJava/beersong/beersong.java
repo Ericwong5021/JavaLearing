@@ -1,7 +1,7 @@
-package JavaLearing.HeadFirstJava.beersong;
+package beersong;
 
 /**
- * Created by Ericwong on 2017/3/5 0005.
+ *Created by Ericwong on 2017/3/5 0005
  */
 public class beersong {
     public static void main (String[] args) {

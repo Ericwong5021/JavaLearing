@@ -1,7 +1,7 @@
-package JavaLearing.HeadFirstJava.Books;
+package Books;
 
 /**
- * Created by Ericwong on 2017/3/8 0008.
+ *Created by Ericwong on 2017/3/8 0008
  */
 class Books {
     String title;

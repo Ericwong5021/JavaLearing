@@ -1,7 +1,7 @@
-package JavaLearing.HeadFirstJava.DVDPlayer;
+package DVDPlayer;
 
 /**
- * Created by Ericwong on 2017/3/6 0006.
+ *Created by Ericwong on 2017/3/6 0006
  */
 class DVDPlayer {
 

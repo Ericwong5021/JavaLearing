@@ -1,7 +1,7 @@
-package JavaLearing.HeadFirstJava.DrumKit;
+package DrumKit;
 
 /**
- * Created by Ericwong on 2017/3/6 0006.
+ *Created by Ericwong on 2017/3/6 0006
  */
 class DrumKit {
     boolean topHat = true;

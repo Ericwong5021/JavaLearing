@@ -1,5 +1,5 @@
 /**
- * Created by Ericwong on 2017/3/8 0008.
+ *Created by Ericwong on 2017/3/8 0008
  */
 public class TestArrays {
     public static void main(String[] args) {
