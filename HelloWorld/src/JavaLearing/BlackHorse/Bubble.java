@@ -7,7 +7,7 @@ public class Bubble {
         bubbleSort(arr);
     }
 
-    public static void bubbleSort(int[] arr) {
+    private static void bubbleSort(int[] arr) {
         for (int x = 0; x < arr.length - 1; x++) {
             for (int j = arr.length - 1; j > x; j--) {
                 int temp;
@@ -21,7 +21,7 @@ public class Bubble {
         showArray(arr);
     }
 
-    public static void showArray(int[] arr) {
+    private static void showArray(int[] arr) {
         int x = 0;
         while (x < arr.length) {
             System.out.print(arr[x]);

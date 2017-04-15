@@ -3,10 +3,10 @@ package Array;
 import java.util.Arrays;
 
 /**
- * Created by Ericwong on 2017/4/8 0008.
+ *Created by Ericwong on 2017/4/8 0008
  */
 public class Arrysort {
-    public static void selectSort(int[] arr) {
+    private static void selectSort(int[] arr) {
         for (int x = 0; x < arr.length - 1; x++) {
             for (int y = x + 1; y < arr.length; y++) {
                 int temp;
@@ -19,7 +19,7 @@ public class Arrysort {
         }
     }
 
-    public static void bubbleSort(int[] arr) {
+    private static void bubbleSort(int[] arr) {
         for (int x = arr.length;x > 0;x--) {
             for (int y = 0; y < x - 1; y++) {
                 int temp;

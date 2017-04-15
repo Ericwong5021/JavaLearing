@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * Created by Ericwong on 2017/4/8 0008.
+ *Created by Ericwong on 2017/4/8 0008
  */
 public class ArrayTest {
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class ArrayTest {
         }
         return arr[max];
     }
-    public static double getMAx(double[] arr) {
+    private static double getMAx(double[] arr) {
         int max = 0;
         for (int x = 0;x < arr.length;x++) {
             if (arr[x] > arr[max]) {
@@ -40,7 +40,7 @@ public class ArrayTest {
         }
         return arr[min];
     }
-    public static double getMin(double[] arr) {
+    private static double getMin(double[] arr) {
         int min = 0;
         for (int x = 0;x < arr.length;x++) {
             if (arr[x] < arr[min]) {
