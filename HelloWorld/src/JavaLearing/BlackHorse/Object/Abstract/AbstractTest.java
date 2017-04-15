@@ -15,6 +15,18 @@ abstract class Employee {
         this.pay = pay;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getPay() {
+        return pay;
+    }
+
     public abstract void work();
 }
 
@@ -24,6 +36,10 @@ class Pro extends Employee {
     Pro(String name, int age, double pay, int bounce) {
         super(name, age, pay);
         this.bounce = bounce;
+    }
+
+    public int getBounce() {
+        return bounce;
     }
 
     public void work() {
@@ -49,7 +65,7 @@ public class AbstractTest {
     public static void main(String[] args) {
         Pro xiaoming = new Pro("wong", 22, 3500, 1000);
         Manager yidong = new Manager("wong", 22, 20000, "manage");
-
+        System.out.println(yidong.getClass()+" "+yidong.getName());
         yidong.work();
     }
 }
