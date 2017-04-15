@@ -21,7 +21,7 @@ class DrumKitTextDriver {
         d.snare = false;
         d.PlaySnare();
         d.playTopHat();
-        if (d.snare == true) {
+        if (d.snare) {
             d.PlaySnare();
         }
     }

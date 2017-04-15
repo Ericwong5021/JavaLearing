@@ -1,4 +1,4 @@
-package Object.Abstract;
+package day7.Object.Abstract;
 
 /**
  * Created by Ericwong on 2017/4/15 0015
@@ -15,7 +15,7 @@ abstract class Employee {
         this.pay = pay;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 

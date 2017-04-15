@@ -1,4 +1,4 @@
-package Object.Abstract;
+package day7.Object.Interface;
 
 /**
  * Created by Ericwong on 2017/4/15 0015
