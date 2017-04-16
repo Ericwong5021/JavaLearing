@@ -1,4 +1,4 @@
-package day8;
+package day8.Poly;
 
 /**
  * Created by Ericwong on 2017/4/16 0016
@@ -18,9 +18,9 @@ class MainBoard {
 }
 
 interface IO {
-    public void run();
+    void run();
 
-    public void stop();
+    void stop();
 }
 
 class SoundCard implements IO {
