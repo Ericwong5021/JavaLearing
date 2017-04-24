@@ -8,7 +8,7 @@ interface Inter {
 }
 
 class Test {
-    static Inter function() {
+    static Inter   function() {
         return new Inter() {
             public void method() {
                 System.out.println("method run");
